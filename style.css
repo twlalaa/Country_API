@@ -154,6 +154,15 @@ main {
 
 .card-color {
   background-color: #7f8487;
+  color: #fff;
+}
+
+.header-left .a-color {
+  color: #fff;
+}
+
+.dark-mode-color {
+  color: #fff;
 }
 
 #scrollToTopButton {

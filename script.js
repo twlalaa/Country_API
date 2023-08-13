@@ -78,10 +78,14 @@ searchInput.addEventListener("input", (e) => {
   showCards(searchedData);
 });
 
+const title = document.getElementById("header-title");
+
 const darkBtn = document.getElementById("dark");
 
 darkBtn.addEventListener("click", (e) => {
   document.body.classList.toggle("body-color");
+  title.classList.toggle("a-color");
+  darkBtn.classList.toggle("dark-mode-color");
 });
 
 const scrollToTopButton = document.getElementById("scrollToTopButton");
