@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country #lala</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html">Where in the world?</a>
+      </div>
+      <button id="dark" class="header-right">
+        <i class="fa-regular fa-moon"></i>Dark mode
+      </button>
+    </header>
+    <main>
+      <div class="main-actions">
+        <div class="input">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for a country..."
+          />
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </div>
+        <select id="continent-select">
+          <option hidden value="">Filter by Region</option>
+          <option value="Africa">Africa</option>
+          <option value="America">America</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+      <div class="card-container">
+        <!-- <div class="card">
+          <img id="flag" src="https://flagcdn.com/w320/az.png" alt="" />
+          <div class="card-content">
+            <p id="country">Azerbaijan</p>
+            <p>Population: <span id="population">10mil</span></p>
+            <p>Region: <span id="region">Asia</span></p>
+            <p>Capital: <span id="capital">Baku</span></p>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+  </body>
+</html>
